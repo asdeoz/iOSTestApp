@@ -13,6 +13,9 @@
 		9E53F81F25F3E32E005A8C41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E53F81E25F3E32E005A8C41 /* Preview Assets.xcassets */; };
 		9E53F82A25F3E32E005A8C41 /* MyTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E53F82925F3E32E005A8C41 /* MyTestAppTests.swift */; };
 		9E53F83525F3E32E005A8C41 /* MyTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E53F83425F3E32E005A8C41 /* MyTestAppUITests.swift */; };
+		9E53F84625F3EC6A005A8C41 /* persona5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E53F84525F3EC6A005A8C41 /* persona5.jpg */; settings = {ASSET_TAGS = (persona5, ); }; };
+		9E53F85125F692BD005A8C41 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E53F85025F692BD005A8C41 /* ContactRow.swift */; };
+		9E53F86125F6A180005A8C41 /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E53F86025F6A180005A8C41 /* ContactDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		9E53F83025F3E32E005A8C41 /* MyTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E53F83425F3E32E005A8C41 /* MyTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestAppUITests.swift; sourceTree = "<group>"; };
 		9E53F83625F3E32E005A8C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E53F84525F3EC6A005A8C41 /* persona5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = persona5.jpg; sourceTree = "<group>"; };
+		9E53F85025F692BD005A8C41 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		9E53F86025F6A180005A8C41 /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +101,13 @@
 		9E53F81625F3E328005A8C41 /* MyTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				9E53F81725F3E328005A8C41 /* MyTestAppApp.swift */,
-				9E53F81925F3E328005A8C41 /* ContentView.swift */,
 				9E53F81B25F3E32E005A8C41 /* Assets.xcassets */,
+				9E53F86025F6A180005A8C41 /* ContactDetail.swift */,
+				9E53F85025F692BD005A8C41 /* ContactRow.swift */,
+				9E53F81925F3E328005A8C41 /* ContentView.swift */,
 				9E53F82025F3E32E005A8C41 /* Info.plist */,
+				9E53F81725F3E328005A8C41 /* MyTestAppApp.swift */,
+				9E53F84525F3EC6A005A8C41 /* persona5.jpg */,
 				9E53F81D25F3E32E005A8C41 /* Preview Content */,
 			);
 			path = MyTestApp;
@@ -192,6 +201,9 @@
 		9E53F80C25F3E328005A8C41 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					persona5,
+				);
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
@@ -235,6 +247,7 @@
 			files = (
 				9E53F81F25F3E32E005A8C41 /* Preview Assets.xcassets in Resources */,
 				9E53F81C25F3E32E005A8C41 /* Assets.xcassets in Resources */,
+				9E53F84625F3EC6A005A8C41 /* persona5.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E53F81A25F3E328005A8C41 /* ContentView.swift in Sources */,
+				9E53F86125F6A180005A8C41 /* ContactDetail.swift in Sources */,
 				9E53F81825F3E328005A8C41 /* MyTestAppApp.swift in Sources */,
+				9E53F85125F692BD005A8C41 /* ContactRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
